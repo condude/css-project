@@ -2,6 +2,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 .header {
@@ -11,8 +12,32 @@ body {
     flex-direction: column;
 }
 
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    display: flex;
+}
+
+ul {
+    font-size: 18px;
+    color: #E5E7EB;
+    list-style-type: none;
+    display: flex;
+}
+
+.hero {
+    display: flex;
+    
+}
+
 .container {
-    background: lightgrey;
+    background: whitesmoke;
     display: flex;
 }
 
