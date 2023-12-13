@@ -19,6 +19,9 @@ body {
 .quote {
     background: #e5e7eb;
     font-size: 36px;
-    font-style: light italic;
     color: #1F2937;
+}
+
+blockquote {
+    font-style: light italic;
 }
