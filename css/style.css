@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background: #1F2937;
+    color:aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    background: lightgrey;
+    display: flex;
+}
