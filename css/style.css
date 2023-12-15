@@ -35,7 +35,7 @@ ul {
 
 .hero {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding-bottom: 36px;
 }
@@ -49,6 +49,7 @@ ul {
 .hero-text {
     display: flex;
     flex-direction: column;
+    max-width: 360px;
 }
 
 .container {
