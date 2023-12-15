@@ -16,6 +16,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 8px;
 }
 
 #logo {
@@ -33,20 +34,65 @@ ul {
 
 .hero {
     display: flex;
-    
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-image {
+    height: 200px;
+    width: auto;
+    display: flex;
+    margin: 16px;
 }
 
 .container {
     background: whitesmoke;
     display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 36px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .quote {
     background: #e5e7eb;
     font-size: 36px;
     color: #1F2937;
+    padding: 32px;
 }
 
 blockquote {
     font-style: light italic;
+}
+
+.call-to-action {
+    background: #3882F6;
+    display: flex;
+    padding: 36px;
+    justify-content: space-around;
+}
+
+.call-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+button {
+    display: flex;
+}
+
+.footer {
+    background: #1F2937;
+    color:aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
 }
