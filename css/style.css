@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 36px;
+    padding: 12px 100px;
     background: #1F2937;
     color:aliceblue;
     flex-wrap: wrap;
@@ -33,16 +33,11 @@ body {
     flex-wrap: wrap;
 }
 
-.link {
-    display: flex;
-    justify-content: space-between;
-}
-
 .hero {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 36px;
+    padding: 12px 100px;
     background: #1F2937;
     color:aliceblue;
     flex-wrap: wrap;
@@ -61,11 +56,11 @@ body {
 }
 
 .container {
-    background: whitesmoke;
+    background: white;
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 36px;
+    padding: 36px 100px;
 }
 
 .info {
@@ -83,14 +78,21 @@ body {
 }
 
 .quote {
-    background: #e5e7eb;
+    background: #E5E7EB;
     font-size: 36px;
     color: #1F2937;
-    padding: 32px;
+    padding: 20px 100px;
 }
 
-blockquote {
-    font-style: light italic;
+#big-quote {
+    font-style: light;
+    padding: 0 36px;
+}
+
+#author {
+    font-size: 26px;
+    text-align: right;
+    padding: 0 36px;
 }
 
 .call-to-action {
@@ -98,16 +100,37 @@ blockquote {
     display: flex;
     padding: 36px;
     justify-content: space-around;
+    border-radius: 15px;
+    align-items: center;
 }
 
 .call-text {
     display: flex;
     flex-direction: column;
     text-align: left;
+    color: aliceblue;
+}
+
+h3 {
+    margin: 2px;
+}
+
+p {
+    margin: 2px;
 }
 
 button {
+    background: #3882F6;
     display: flex;
+    color: aliceblue;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 7px;
+    padding: 3px 12px;
+}
+
+#call-button {
+    border: 2px solid aliceblue;
 }
 
 .footer {
