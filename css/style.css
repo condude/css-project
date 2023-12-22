@@ -1,4 +1,4 @@
-*{border: 2px solid red}
+
 
 body {
     margin: 0;
@@ -81,7 +81,7 @@ body {
     background: #E5E7EB;
     font-size: 36px;
     color: #1F2937;
-    padding: 20px 100px;
+    padding: 50px 100px;
 }
 
 #big-quote {
